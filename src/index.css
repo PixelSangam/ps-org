@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&family=Comfortaa:wght@300;400;500&family=Croissant+One&display=swap");
+
+:root {
+  --bodyfont: "Archivo", sans-serif;
+  --fontcomforta: "Comfortaa", cursive;
+  --fontcroissant: "Croissant One", cursive;
+  --fontSize: 15px;
+  --pxSpacing: 1px;
+  --transition: 0.4s ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fontcomforta);
+  font-size: var(--fontsize);
+}
+
+.app {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* .custom__cursor {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  background-image: radial-gradient(
+    circle,
+    rgba(13, 122, 167, 1) 6%,
+    rgba(136, 0, 136, 1) 68%
+  );
+  width: 15px;
+  aspect-ratio: 1;
+  transform: translate(-50%, -90%);
+} */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h5,
+h4,
+h6 {
+  line-height: 1.25;
+}
+
+::selection {
+  background-color: var(--secondaryColor);
+  color: rgba(255, 255, 255, 0.733);
+}
+
+img {
+  user-select: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}

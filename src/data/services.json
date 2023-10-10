@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "App Development",
+    "image": "./images/app_dev.png",
+    "about": "Transforming ideas into intuitive, standout mobile applications for Android and iOS."
+  },
+  {
+    "id": 2,
+    "name": "Web Development",
+    "image": "./images/web_dev.png",
+    "about": "Crafting responsive and visually appealing websites for a strong online presence."
+  },
+  {
+    "id": 3,
+    "name": "Tech Support",
+    "image": "./images/custom_support.png",
+    "about": "Pixelsangam delivers top-notch tech support. Our skilled team ensures swift solutions, resolving issues seamlessly. Experience reliability and efficiency in every digital endeavor."
+  }
+]
